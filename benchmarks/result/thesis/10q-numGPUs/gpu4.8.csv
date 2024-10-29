@@ -1,0 +1,17 @@
+engine,dataset,query,time,stddev,results,warmup,repeat,options
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_16x.json,TT1,1410.3023564999924,45.24783501376389,24882860,5,10,--gpjson.grcuda.NumberOfGPUs=1
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_32x.json,TT1,2772.918687499873,75.52302959201522,49765750,5,10,--gpjson.grcuda.NumberOfGPUs=1
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_64x.json,TT1,105087.95555830021,353.79691700790227,99531600,5,10,--gpjson.grcuda.NumberOfGPUs=1
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_128x.json,TT1,210793.71994370018,535.1281241291525,199063650,5,10,--gpjson.grcuda.NumberOfGPUs=1
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_16x.json,TT1,1457.3412091998384,35.06357522457179,24882860,5,10,--gpjson.grcuda.NumberOfGPUs=2
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_32x.json,TT1,2775.190708200075,95.15544949869309,49765750,5,10,--gpjson.grcuda.NumberOfGPUs=2
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_64x.json,TT1,5563.528028200008,137.23026802695838,99531600,5,10,--gpjson.grcuda.NumberOfGPUs=2
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_128x.json,TT1,153362.60766769963,463.5029653246986,199063650,5,10,--gpjson.grcuda.NumberOfGPUs=2
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_16x.json,TT1,1358.6845711005851,48.667692181276756,24882860,5,10,--gpjson.grcuda.NumberOfGPUs=4
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_32x.json,TT1,2668.9678425002844,111.0547074230128,49765750,5,10,--gpjson.grcuda.NumberOfGPUs=4
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_64x.json,TT1,5119.170018699765,69.37779112293849,99531600,5,10,--gpjson.grcuda.NumberOfGPUs=4
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_128x.json,TT1,10470.755883199721,226.17392367816356,199063650,5,10,--gpjson.grcuda.NumberOfGPUs=4
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_16x.json,TT1,1427.0870860997588,26.304669672715875,24882860,5,10,--gpjson.grcuda.NumberOfGPUs=8
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_32x.json,TT1,2763.001099100523,92.86631369131881,49765750,5,10,--gpjson.grcuda.NumberOfGPUs=8
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_64x.json,TT1,5600.917319300026,148.57231703407757,99531600,5,10,--gpjson.grcuda.NumberOfGPUs=8
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_128x.json,TT1,11297.778940300272,408.02570112880585,199063650,5,10,--gpjson.grcuda.NumberOfGPUs=8

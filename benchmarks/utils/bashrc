@@ -1,0 +1,10 @@
+#GPJSON
+export CUDA_DIR=/usr/local/cuda
+export PATH=$PATH:$CUDA_DIR/bin
+export GRAAL_DIR=~/graalvm-ce-java8-21.0.0.2
+export GRAAL_HOME=$GRAAL_DIR
+export PATH=$PATH:$GRAAL_HOME/bin
+export NODE_DIR=~/node-v14.16.1
+
+alias run-gpjson="$GRAAL_HOME/bin/node --polyglot --jvm "
+alias run-gpjson-benchmark="$GRAAL_HOME/bin/node --polyglot --jvm --engine.TraceCompilation=true "

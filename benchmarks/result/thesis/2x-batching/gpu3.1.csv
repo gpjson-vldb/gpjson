@@ -1,0 +1,17 @@
+engine,dataset,query,time,stddev,results,warmup,repeat,options
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,873.8169394984841,13.418368475375498,300323,5,10,--gpjson.PartitionSize=1073741824
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,750.5961099982262,9.14415315433706,300323,5,10,--gpjson.PartitionSize=1073741824
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,869.1580673992634,6.153404837355436,300323,5,10,--gpjson.PartitionSize=536870912
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,808.2836607009173,6.303929990933389,300323,5,10,--gpjson.PartitionSize=536870912
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,875.4220195010305,9.246463158486707,300323,5,10,--gpjson.PartitionSize=268435456
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,867.8329872980714,19.703669622170942,300323,5,10,--gpjson.PartitionSize=268435456
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,879.6825848996639,36.76092758764625,300323,5,10,--gpjson.PartitionSize=134217728
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,1020.6828318983316,20.979028320892645,300323,5,10,--gpjson.PartitionSize=134217728
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,872.0054059997201,2.030504490021182,300323,5,10,--gpjson.PartitionSize=1073741824 --gpjson.IndexBuilderGridSize=16384
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,746.3180950030685,7.464817729525984,300323,5,10,--gpjson.PartitionSize=1073741824 --gpjson.IndexBuilderGridSize=16384
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,924.2193020999432,8.379404525355607,300323,5,10,--gpjson.PartitionSize=536870912 --gpjson.IndexBuilderGridSize=8192
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,785.9427798002959,18.489900011144215,300323,5,10,--gpjson.PartitionSize=536870912 --gpjson.IndexBuilderGridSize=8192
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,1055.1454733982682,8.002709740643185,300323,5,10,--gpjson.PartitionSize=268435456 --gpjson.IndexBuilderGridSize=4096
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,800.5890316009521,5.267139661908131,300323,5,10,--gpjson.PartitionSize=268435456 --gpjson.IndexBuilderGridSize=4096
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1-noBatching,1219.9108399018646,12.834285160539219,300323,5,10,--gpjson.PartitionSize=134217728 --gpjson.IndexBuilderGridSize=2048
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records_2x.json,TT1,883.9741510018706,17.796510593015086,300323,5,10,--gpjson.PartitionSize=134217728 --gpjson.IndexBuilderGridSize=2048

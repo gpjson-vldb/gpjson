@@ -1,0 +1,13 @@
+engine,dataset,query,time,stddev,results,warmup,repeat,options
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT1,451.41330169588326,53.93286368919228,150135,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT2,507.90528789758685,60.48750174497377,300270,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT3,435.1007741048932,3.572354431158432,405,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT4,433.5700539022684,1.839839207573357,137559,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/walmart_small_records.json,WM,565.4040608987212,3.5962107619023125,288391,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/bestbuy_small_records.json,BB,549.6307559996843,1.8317429799618774,459332,5,10,--gpjson.grcuda.ExecutionPolicy=async
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT1,434.788590298593,3.297343008918735,150135,5,10,--gpjson.grcuda.ExecutionPolicy=sync
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT2,488.48559930026533,7.221139977538004,300270,5,10,--gpjson.grcuda.ExecutionPolicy=sync
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT3,433.63168700039387,1.2180831394601002,405,5,10,--gpjson.grcuda.ExecutionPolicy=sync
+gpjson,/home/ubuntu/datasets-ext/twitter_small_records.json,TT4,429.71580059826374,0.8550006418977086,137559,5,10,--gpjson.grcuda.ExecutionPolicy=sync
+gpjson,/home/ubuntu/datasets-ext/walmart_small_records.json,WM,592.8158854007721,24.75874795522424,288391,5,10,--gpjson.grcuda.ExecutionPolicy=sync
+gpjson,/home/ubuntu/datasets-ext/bestbuy_small_records.json,BB,547.9414721012115,0.4678508899265695,459332,5,10,--gpjson.grcuda.ExecutionPolicy=sync

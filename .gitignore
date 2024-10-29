@@ -1,0 +1,21 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+component/gpjson-component.jar
+*.nvvp
+
+*.dot
+
+test/package.json
+test/package-lock.json
+test/node_modules
+
+.ipynb_checkpoints/
